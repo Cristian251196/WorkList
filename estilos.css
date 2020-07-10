@@ -125,6 +125,12 @@ header{
     padding: 10px 10px 8px;
     border-radius: 5px;
 }
+.media__item:hover{
+    background-color: var(--cian-oscuro);
+}
+.media__link:hover{
+    color: #fff;
+}
 
 @media screen and (max-width: 1050px){
     :root{
@@ -177,6 +183,8 @@ header{
     :root{
         --ancho: 315px;
     }
+    header{
+        background-image: url(./images/bg-header-mobile.svg);
     .media{
         padding: 0 15px 10px;
         margin-bottom: 50px;
